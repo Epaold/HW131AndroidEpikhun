@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья</string>
+    <string name="textView_zagolov"> «Комплексная система мониторинга здоровья» \n Epihin N</string>
+    <string name="textView_fio"> ФИО </string>
+    <string name="textView_age"> ВОЗРАСТ </string>
+    <string name="button_sv"> СОХРАНИТЬ </string>
+    <string name="title_activity_pressure_indicators">Pressure_indicators</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications"> Notifications </string>
+    <string name="btn_press"> Запись давления </string>
+    <string name="btn_life"> Запись жиз/показ </string>
+    <string name="btn_act"> СТАРТ </string>
+    <string name="textView_zag_press"> Запись давления </string>
+    <string name="textView_zag_life"> Запись жизненных показателей </string>
+    <string name="textView_dat_txt" > Текущая дата и время </string>
+    <string name="textView_dat_dat" > время </string>
+    <string name="textView_vd" > Верхнее давление </string>
+    <string name="textView_nd" > Нижнее давление </string>
+    <string name="textView_puls" > Пульс </string>
+    <string name="textView_thkd" > Тахикардия  </string>
+    <string name="checkBox_thkd" > Да </string>
+    <string name="textView_ves" > ВЕС </string>
+    <string name="excep_1" > Не правильный тип данных в поле ВОЗРАСТ или поле пустое </string>
+    <string name="textView_kol_sh" > Количество шагов </string>
+
+</resources>

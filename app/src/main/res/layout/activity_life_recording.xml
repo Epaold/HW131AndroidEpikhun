@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LifeRecording">
+
+    <Button
+        android:id="@+id/button_sv3"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="360dp"
+        android:onClick="button_sv_l_rec"
+        android:text="@string/button_sv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <view
+        android:id="@+id/view2"
+        class="androidx.constraintlayout.widget.Group"
+        android:layout_width="351dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="440dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:onClick="button_back"
+        android:text="@string/btn_press"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button_go"
+        android:layout_width="120dp"
+        android:layout_height="58dp"
+
+        android:layout_marginEnd="16dp"
+        android:onClick="button_go"
+        android:text="@string/btn_act"
+        app:layout_constraintBottom_toBottomOf="@+id/button_back"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/button_back" />
+
+    <TextView
+        android:id="@+id/textView_zag_press"
+        android:layout_width="310dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_zag_life"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_ves"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_ves"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_zag_press" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ves" />
+
+    <TextView
+        android:id="@+id/textView_kol_sh"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_kol_sh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_kol_sh"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_kol_sh" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
